@@ -21,6 +21,7 @@ public class Enemy : MonoBehaviour
 
     public void TakeDamage(float damage)
     {
+        StartCoroutine(ChangeColorOnTakeDamage());
         currentHealth += damage;
         healthSlider.value = currentHealth;
         if (currentHealth >= 100)
@@ -39,5 +40,13 @@ public class Enemy : MonoBehaviour
                 playerCombat.TakeDamage(10);
             }
         }
+    }
+
+    private IEnumerator ChangeColorOnTakeDamage()
+    {
+        GetComponent<SpriteRenderer>().color = Color.red;
+        yield return new WaitForSeconds(.1f);
+        GetComponent<SpriteRenderer>().color = Color.white;
+        yield return new WaitForSeconds(.1f);
     }
 }
