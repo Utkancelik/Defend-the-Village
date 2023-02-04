@@ -20,6 +20,7 @@ public class PlayerMovement : MonoBehaviour
     {
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
+        movement = movement.normalized;
 
         if (movement.x != 0 || movement.y != 0)
         {
@@ -38,7 +39,5 @@ public class PlayerMovement : MonoBehaviour
     private void FixedUpdate()
     {
         rigidbody.MovePosition(rigidbody.position + speed * Time.fixedDeltaTime * movement);
-
-
     }
 }
