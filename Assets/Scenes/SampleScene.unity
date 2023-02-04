@@ -20799,7 +20799,7 @@ MonoBehaviour:
   minDelay: 1
   maxDelay: 3
   randomX: 0.2
-  randomZ: 0.2
+  randomY: 0
 --- !u!1001 &4177035197484310661
 PrefabInstance:
   m_ObjectHideFlags: 0

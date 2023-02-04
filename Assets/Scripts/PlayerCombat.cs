@@ -2,12 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.UIElements;
 
 public class PlayerCombat : MonoBehaviour
 {
     [SerializeField] private GameObject leftHitBox, rightHitBox, upHitBox, downHitBox;
     [SerializeField] private float damage;
-    [SerializeField] private Slider healthSlider;
+    [SerializeField] private UnityEngine.UI.Slider healthSlider;
     [SerializeField] private float maxHealth, currentHealth;
 
     private PlayerMovement playerMovement;
@@ -58,16 +59,27 @@ public class PlayerCombat : MonoBehaviour
         
     }
 
-    private void OnTriggerStay2D(Collider2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
         Debug.Log("Triggera girdi");
-        if (collision.CompareTag("Enemy"))
+        if (collision.gameObject.CompareTag("Enemy"))
         {
             Debug.Log("Enemye vurdu.");
-            Enemy enemy = (Enemy)collision.GetComponent<Enemy>();
+            Enemy enemy = (Enemy)collision.gameObject.GetComponent<Enemy>();
+            enemy.rigidbody.AddForce(((Vector2)transform.position - (Vector2)enemy.transform.position).normalized * Time.fixedDeltaTime * 100f);
             enemy.TakeDamage(damage);
         }
     }
+    //private void OnTriggerStay2D(Collider2D collision)
+    //{
+    //    Debug.Log("Triggera girdi");
+    //    if (collision.CompareTag("Enemy"))
+    //    {
+    //        Debug.Log("Enemye vurdu.");
+    //        Enemy enemy = (Enemy)collision.GetComponent<Enemy>();
+    //        enemy.TakeDamage(damage);
+    //    }
+    //}
 
     public void TakeDamage(float damage)
     {

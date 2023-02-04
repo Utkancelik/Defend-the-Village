@@ -8,8 +8,11 @@ public class Enemy : MonoBehaviour
 {
     [SerializeField] private Slider healthSlider;
     [SerializeField] private float maxHealth, currentHealth, damage;
+
+    public Rigidbody2D rigidbody;
     private void Start()
     {
+        rigidbody = GetComponent<Rigidbody2D>();
         currentHealth = maxHealth;
         healthSlider.value = currentHealth;
     }
@@ -24,7 +27,7 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    private void OnCollisionStay2D(Collision2D collision)
+    private void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
@@ -35,6 +38,17 @@ public class Enemy : MonoBehaviour
             }
         }
     }
+    //private void OnCollisionStay2D(Collision2D collision)
+    //{
+    //    if (collision.gameObject.CompareTag("Player"))
+    //    {
+    //        PlayerCombat playerCombat = collision.gameObject.GetComponent<PlayerCombat>();
+    //        if (playerCombat != null)
+    //        {
+    //            playerCombat.TakeDamage(damage);
+    //        }
+    //    }
+    //}
 
     private IEnumerator ChangeColorOnTakeDamage()
     {
