@@ -11,7 +11,7 @@ public class PlayerCombat : MonoBehaviour
     [SerializeField] private float maxHealth, currentHealth;
 
     private PlayerMovement playerMovement;
-
+    private bool clicked = false, trig = false;
     private void Start()
     {
         playerMovement = GetComponent<PlayerMovement>();
@@ -21,31 +21,35 @@ public class PlayerCombat : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetMouseButton(0))
+        if (Input.GetMouseButton(0) && !clicked)
         {
+            clicked = true;
+
             Vector2 movementDirection = new Vector2(playerMovement.animator.GetFloat("Horizontal"), playerMovement.animator.GetFloat("Vertical"));
+            Debug.Log("Movement direction " + movementDirection);
 
-
-            if (movementDirection.x >= 1)
+            if (movementDirection.x >= .9f)
             {
                 rightHitBox.SetActive(true);
             }
-            else if (movementDirection.x <= -1)
+            if (movementDirection.x <= -.9f)
             {
                 leftHitBox.SetActive(true);
             }
-            else if (movementDirection.y >= 1)
+            if (movementDirection.y >= .9f)
             {
                 upHitBox.SetActive(true);
             }
-            else if (movementDirection.y <= -1)
+            if (movementDirection.y <= -.9f)
             {
                 downHitBox.SetActive(true);
             }
 
         }
-        if (Input.GetMouseButtonUp(0))
+        if (Input.GetMouseButtonUp(0) && clicked)
         {
+            clicked = false;
+
             rightHitBox.SetActive(false);
             leftHitBox.SetActive(false);
             upHitBox.SetActive(false);
@@ -56,8 +60,10 @@ public class PlayerCombat : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D collision)
     {
+        Debug.Log("Triggera girdi");
         if (collision.CompareTag("Enemy"))
         {
+            Debug.Log("Enemye vurdu.");
             Enemy enemy = (Enemy)collision.GetComponent<Enemy>();
             enemy.TakeDamage(damage);
         }

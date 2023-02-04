@@ -27,7 +27,10 @@ public class EnemyAI : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         rigidbody = GetComponent<Rigidbody2D>();
-        target = GameObject.FindGameObjectWithTag("Player").transform;
+        if (GameObject.FindGameObjectWithTag("Player") != null)
+        {
+            target = GameObject.FindGameObjectWithTag("Player").transform;
+        }
     }
 
     private void Update()
@@ -48,7 +51,10 @@ public class EnemyAI : MonoBehaviour
 
         animator.SetFloat("Speed", movement.sqrMagnitude);
 
-        movementDirection = target.position - transform.position;
+        if (target != null)
+        {
+            movementDirection = target.position - transform.position;
+        }
         float angle = Mathf.Atan2(movementDirection.y, movementDirection.x) * Mathf.Rad2Deg;
         movementDirection.Normalize();
         movement = movementDirection;

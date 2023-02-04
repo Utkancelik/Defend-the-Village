@@ -657,8 +657,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c09e4fc1b2d2a54cabde49032a47fb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  leftHitBox: {fileID: 7098709817146323210}
-  rightHitBox: {fileID: 9091839523009268944}
+  leftHitBox: {fileID: 9091839523009268944}
+  rightHitBox: {fileID: 7098709817146323210}
   upHitBox: {fileID: 5168267023697749527}
   downHitBox: {fileID: 782311845805911620}
   damage: 10

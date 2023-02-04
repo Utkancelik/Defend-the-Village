@@ -7,18 +7,12 @@ using UnityEngine.UI;
 public class Enemy : MonoBehaviour
 {
     [SerializeField] private Slider healthSlider;
-    [SerializeField] private float maxHealth, currentHealth;
+    [SerializeField] private float maxHealth, currentHealth, damage;
     private void Start()
     {
         currentHealth = maxHealth;
         healthSlider.value = currentHealth;
     }
-
-    private void Update()
-    {
-        
-    }
-
     public void TakeDamage(float damage)
     {
         StartCoroutine(ChangeColorOnTakeDamage());
@@ -37,7 +31,7 @@ public class Enemy : MonoBehaviour
             PlayerCombat playerCombat = collision.gameObject.GetComponent<PlayerCombat>();
             if (playerCombat != null)
             {
-                playerCombat.TakeDamage(10);
+                playerCombat.TakeDamage(damage);
             }
         }
     }

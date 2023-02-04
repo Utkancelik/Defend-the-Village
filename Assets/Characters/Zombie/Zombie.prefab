@@ -458,7 +458,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4177035197722282062}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -526,6 +526,7 @@ MonoBehaviour:
   healthSlider: {fileID: 8544680204257580465}
   maxHealth: 0
   currentHealth: 0
+  damage: 1
 --- !u!1 &5761577128112251342
 GameObject:
   m_ObjectHideFlags: 0
