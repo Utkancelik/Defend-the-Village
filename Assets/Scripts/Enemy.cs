@@ -38,17 +38,6 @@ public class Enemy : MonoBehaviour
             }
         }
     }
-    //private void OnCollisionStay2D(Collision2D collision)
-    //{
-    //    if (collision.gameObject.CompareTag("Player"))
-    //    {
-    //        PlayerCombat playerCombat = collision.gameObject.GetComponent<PlayerCombat>();
-    //        if (playerCombat != null)
-    //        {
-    //            playerCombat.TakeDamage(damage);
-    //        }
-    //    }
-    //}
 
     private IEnumerator ChangeColorOnTakeDamage()
     {

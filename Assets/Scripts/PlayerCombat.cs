@@ -6,13 +6,18 @@ using UnityEngine.UIElements;
 
 public class PlayerCombat : MonoBehaviour
 {
-    [SerializeField] private GameObject leftHitBox, rightHitBox, upHitBox, downHitBox;
+    [SerializeField] private GameObject leftHitBox, rightHitBox, upHitBox, downHitBox, crosshair, bulletPrefab;
     [SerializeField] private float damage;
     [SerializeField] private UnityEngine.UI.Slider healthSlider;
     [SerializeField] private float maxHealth, currentHealth;
+    [SerializeField] private float crosshairDistance;
+    [SerializeField] private float bulletSpeed, fireRate = 5.0f;
 
     private PlayerMovement playerMovement;
-    private bool clicked = false, trig = false;
+    private bool clicked = false, trig = false, endOfAiming,shotFired;
+    private Vector2 mousePos;
+
+    float timer = 0f;
     private void Start()
     {
         playerMovement = GetComponent<PlayerMovement>();
@@ -22,6 +27,17 @@ public class PlayerCombat : MonoBehaviour
 
     private void Update()
     {
+        timer += Time.deltaTime;
+        if (timer > fireRate)
+        {
+            fireRate = timer + 1;
+            shotFired = false;
+        }
+        Aim();
+        Shoot();
+        endOfAiming = Input.GetMouseButtonUp(0) && !shotFired;
+        
+
         if (Input.GetMouseButton(0) && !clicked)
         {
             clicked = true;
@@ -56,7 +72,7 @@ public class PlayerCombat : MonoBehaviour
             upHitBox.SetActive(false);
             downHitBox.SetActive(false);
         }
-        
+
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -70,16 +86,6 @@ public class PlayerCombat : MonoBehaviour
             enemy.TakeDamage(damage);
         }
     }
-    //private void OnTriggerStay2D(Collider2D collision)
-    //{
-    //    Debug.Log("Triggera girdi");
-    //    if (collision.CompareTag("Enemy"))
-    //    {
-    //        Debug.Log("Enemye vurdu.");
-    //        Enemy enemy = (Enemy)collision.GetComponent<Enemy>();
-    //        enemy.TakeDamage(damage);
-    //    }
-    //}
 
     public void TakeDamage(float damage)
     {
@@ -89,5 +95,31 @@ public class PlayerCombat : MonoBehaviour
         {
             Destroy(gameObject);
         }
+    }
+
+    private void Aim()
+    {
+        if (playerMovement.movement != Vector2.zero)
+        {
+            crosshair.transform.localPosition = playerMovement.movement * crosshairDistance;
+        }
+    }
+
+    private void Shoot()
+    {
+        Vector2 shootingDirection = crosshair.transform.localPosition;
+        shootingDirection.Normalize();
+
+        if (endOfAiming)
+        {
+            shotFired = true;
+            GameObject bullet = Instantiate(bulletPrefab, transform.position, Quaternion.identity);
+            bullet.GetComponent<Rigidbody2D>().velocity = shootingDirection * bulletSpeed;
+            bullet.transform.Rotate(0,0,Mathf.Atan2(shootingDirection.y, shootingDirection.x) * Mathf.Rad2Deg);
+            Destroy(bullet, 1f);
+        }
+
+        
+        
     }
 }

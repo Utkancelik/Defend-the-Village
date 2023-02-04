@@ -35,14 +35,9 @@ public class EnemyAI : MonoBehaviour
 
     private void Update()
     {
-        if (isInChaseRange && !isInAttackRange)
-        {
-
-        }
-        else if (isInAttackRange)
+        if (isInAttackRange)
         {
             animator.SetTrigger("Attack");
-
         }
         else
         {
@@ -55,6 +50,7 @@ public class EnemyAI : MonoBehaviour
         {
             movementDirection = target.position - transform.position;
         }
+
         float angle = Mathf.Atan2(movementDirection.y, movementDirection.x) * Mathf.Rad2Deg;
         movementDirection.Normalize();
         movement = movementDirection;

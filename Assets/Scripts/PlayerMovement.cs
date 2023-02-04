@@ -7,7 +7,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float speed;
 
     private Rigidbody2D rigidbody;
-    public Vector2 movement, mousePos;
+    public Vector2 movement;
     public Animator animator;
 
     private void Start()
@@ -21,6 +21,7 @@ public class PlayerMovement : MonoBehaviour
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
         movement = movement.normalized;
+
 
         if (movement.x != 0 || movement.y != 0)
         {
