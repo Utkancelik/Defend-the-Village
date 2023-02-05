@@ -30,7 +30,7 @@ public class PlayerCombat : MonoBehaviour
         timer += Time.deltaTime;
         if (timer > fireRate)
         {
-            fireRate = timer + 1;
+            fireRate = timer + 0.2f;
             shotFired = false;
         }
         Aim();
