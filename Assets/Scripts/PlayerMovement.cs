@@ -7,8 +7,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float speed;
 
     private Rigidbody2D rigidbody;
-    private Vector2 movement, mousePos;
-    private Animator animator;
+    public Vector2 movement;
+    public Animator animator;
 
     private void Start()
     {
@@ -18,20 +18,36 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-        movement.x = Input.GetAxisRaw("Horizontal");
-        movement.y = Input.GetAxisRaw("Vertical");
+        if (FindObjectOfType<GameManager>().isGameRunning && !FindObjectOfType<GameManager>().isGameOver &&
+            !FindObjectOfType<GameManager>().isGamePaused)
+        {
+            movement.x = Input.GetAxisRaw("Horizontal");
+            movement.y = Input.GetAxisRaw("Vertical");
+            movement = movement.normalized;
 
-        animator.SetFloat("Horizontal", movement.x);
-        animator.SetFloat("Vertical", movement.y);
-        animator.SetFloat("Speed", movement.magnitude);
 
+            if (movement.x != 0 || movement.y != 0)
+            {
+                animator.SetFloat("Horizontal", movement.x);
+                animator.SetFloat("Vertical", movement.y);
+            }
+
+            animator.SetFloat("Speed", movement.magnitude);
+
+            if (Input.GetMouseButton(0))
+            {
+                animator.SetTrigger("Attack");
+            }
+        }
     }
 
     private void FixedUpdate()
     {
-        rigidbody.MovePosition(rigidbody.position + speed * Time.fixedDeltaTime * movement);
-
-
+        if (FindObjectOfType<GameManager>().isGameRunning && !FindObjectOfType<GameManager>().isGameOver &&
+           !FindObjectOfType<GameManager>().isGamePaused)
+        {
+            rigidbody.MovePosition(rigidbody.position + speed * Time.fixedDeltaTime * movement);
+        }
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {

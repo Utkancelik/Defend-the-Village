@@ -4,26 +4,17 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - OldManHouse
-  - BobHouse
-  - MixerHouse
-  - CathyHouse
-  - AlexHouse
-  - SpeedBoost
-  - TomHouse
-  - AknHouse
-  - UtkanHouse
-  - JesseHouse
+  - Enemy
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
-  - 
-  - 
-  - 
+  - Bullet
+  - Enemy
+  - Environment
   - 
   - 
   - 
