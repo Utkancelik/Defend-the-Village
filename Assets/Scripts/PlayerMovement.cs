@@ -18,27 +18,35 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-        movement.x = Input.GetAxisRaw("Horizontal");
-        movement.y = Input.GetAxisRaw("Vertical");
-        movement = movement.normalized;
-
-
-        if (movement.x != 0 || movement.y != 0)
+        if (FindObjectOfType<GameManager>().isGameRunning && !FindObjectOfType<GameManager>().isGameOver &&
+            !FindObjectOfType<GameManager>().isGamePaused)
         {
-            animator.SetFloat("Horizontal", movement.x);
-            animator.SetFloat("Vertical", movement.y);
-        }
+            movement.x = Input.GetAxisRaw("Horizontal");
+            movement.y = Input.GetAxisRaw("Vertical");
+            movement = movement.normalized;
 
-        animator.SetFloat("Speed", movement.magnitude);
 
-        if (Input.GetMouseButton(0))
-        {
-            animator.SetTrigger("Attack");
+            if (movement.x != 0 || movement.y != 0)
+            {
+                animator.SetFloat("Horizontal", movement.x);
+                animator.SetFloat("Vertical", movement.y);
+            }
+
+            animator.SetFloat("Speed", movement.magnitude);
+
+            if (Input.GetMouseButton(0))
+            {
+                animator.SetTrigger("Attack");
+            }
         }
     }
 
     private void FixedUpdate()
     {
-        rigidbody.MovePosition(rigidbody.position + speed * Time.fixedDeltaTime * movement);
+        if (FindObjectOfType<GameManager>().isGameRunning && !FindObjectOfType<GameManager>().isGameOver &&
+           !FindObjectOfType<GameManager>().isGamePaused)
+        {
+            rigidbody.MovePosition(rigidbody.position + speed * Time.fixedDeltaTime * movement);
+        }
     }
 }

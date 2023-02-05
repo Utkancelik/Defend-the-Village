@@ -27,60 +27,63 @@ public class PlayerCombat : MonoBehaviour
 
     private void Update()
     {
-        timer += Time.deltaTime;
-        if (timer > fireRate)
+        if (FindObjectOfType<GameManager>().isGameRunning && !FindObjectOfType<GameManager>().isGameOver &&
+            !FindObjectOfType<GameManager>().isGamePaused)
         {
-            fireRate = timer + 0.2f;
-            shotFired = false;
+            timer += Time.deltaTime;
+            if (timer > fireRate)
+            {
+                fireRate = timer + 0.2f;
+                shotFired = false;
+            }
+            Aim();
+            Shoot();
+            endOfAiming = Input.GetMouseButtonUp(0) && !shotFired;
+
+
+            if (Input.GetMouseButton(0) && !clicked)
+            {
+                clicked = true;
+
+                Vector2 movementDirection = new Vector2(playerMovement.animator.GetFloat("Horizontal"), playerMovement.animator.GetFloat("Vertical"));
+                Debug.Log("Movement direction " + movementDirection);
+
+                if (movementDirection.x >= .9f)
+                {
+                    rightHitBox.SetActive(true);
+                }
+                if (movementDirection.x <= -.9f)
+                {
+                    leftHitBox.SetActive(true);
+                }
+                if (movementDirection.y >= .9f)
+                {
+                    upHitBox.SetActive(true);
+                }
+                if (movementDirection.y <= -.9f)
+                {
+                    downHitBox.SetActive(true);
+                }
+
+            }
+            if (Input.GetMouseButtonUp(0) && clicked)
+            {
+                clicked = false;
+
+                rightHitBox.SetActive(false);
+                leftHitBox.SetActive(false);
+                upHitBox.SetActive(false);
+                downHitBox.SetActive(false);
+            }
         }
-        Aim();
-        Shoot();
-        endOfAiming = Input.GetMouseButtonUp(0) && !shotFired;
         
-
-        if (Input.GetMouseButton(0) && !clicked)
-        {
-            clicked = true;
-
-            Vector2 movementDirection = new Vector2(playerMovement.animator.GetFloat("Horizontal"), playerMovement.animator.GetFloat("Vertical"));
-            Debug.Log("Movement direction " + movementDirection);
-
-            if (movementDirection.x >= .9f)
-            {
-                rightHitBox.SetActive(true);
-            }
-            if (movementDirection.x <= -.9f)
-            {
-                leftHitBox.SetActive(true);
-            }
-            if (movementDirection.y >= .9f)
-            {
-                upHitBox.SetActive(true);
-            }
-            if (movementDirection.y <= -.9f)
-            {
-                downHitBox.SetActive(true);
-            }
-
-        }
-        if (Input.GetMouseButtonUp(0) && clicked)
-        {
-            clicked = false;
-
-            rightHitBox.SetActive(false);
-            leftHitBox.SetActive(false);
-            upHitBox.SetActive(false);
-            downHitBox.SetActive(false);
-        }
 
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log("Triggera girdi");
         if (collision.gameObject.CompareTag("Enemy"))
         {
-            Debug.Log("Enemye vurdu.");
             Enemy enemy = (Enemy)collision.gameObject.GetComponent<Enemy>();
             enemy.rigidbody.AddForce(((Vector2)transform.position - (Vector2)enemy.transform.position).normalized * Time.fixedDeltaTime * 100f);
             enemy.TakeDamage(damage);
@@ -94,6 +97,8 @@ public class PlayerCombat : MonoBehaviour
         if (currentHealth >= healthSlider.maxValue)
         {
             Destroy(gameObject);
+            FindObjectOfType<GameManager>().isGameOver = true;
+            FindObjectOfType<GameManager>().isGameRunning = false;
         }
     }
 

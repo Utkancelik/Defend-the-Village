@@ -7,9 +7,25 @@ public class Spawner : MonoBehaviour
     [SerializeField] private GameObject spawnPrefab;
     [SerializeField] private float minDelay, maxDelay, randomX, randomY;
 
-    private void Start()
+    private void OnEnable()
     {
         StartCoroutine(SpawnInterruptedly(spawnPrefab));
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player") && FindObjectOfType<GameManager>().isGameRunning)
+        {
+            gameObject.GetComponent<Spawner>().enabled = true;
+        }
+        
+    }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player") && FindObjectOfType<GameManager>().isGameRunning)
+        {
+            gameObject.GetComponent<Spawner>().enabled = false;
+        }
     }
     public IEnumerator SpawnInterruptedly(GameObject spawnObj)
     {

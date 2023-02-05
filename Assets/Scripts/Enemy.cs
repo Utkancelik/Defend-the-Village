@@ -29,7 +29,7 @@ public class Enemy : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("Player") && FindObjectOfType<GameManager>().isGameRunning)
         {
             PlayerCombat playerCombat = collision.gameObject.GetComponent<PlayerCombat>();
             if (playerCombat != null)
