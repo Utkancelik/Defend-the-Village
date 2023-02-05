@@ -3,7 +3,17 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - OldManHouse
+  - BobHouse
+  - MixerHouse
+  - CathyHouse
+  - AlexHouse
+  - SpeedBoost
+  - TomHouse
+  - AknHouse
+  - UtkanHouse
+  - JesseHouse
   layers:
   - Default
   - TransparentFX

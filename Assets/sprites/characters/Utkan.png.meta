@@ -1,0 +1,2939 @@
+fileFormatVersion: 2
+guid: 7b16ecb8905504345b0e1b47b3b0ee8b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 140
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Utkan_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1232
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f01996b13e483647ba4f031a48b864a
+      internalID: -952258192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_1
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1232
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38412a12aba279c4ab6133e9a96660f5
+      internalID: -195088643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_2
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1233
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d40830fcf1191f949b85da53bd666101
+      internalID: 797482176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_3
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1235
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5ebd2f4f5e3ec947a6090a517055d37
+      internalID: -1304741814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_4
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1237
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e549c2bcbb3c645bead8f8f7183f5d
+      internalID: 1670521525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_5
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1237
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beba9605c1d5d60428f623aca5214f4d
+      internalID: -760758517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_6
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1235
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b47d1ace3f39ead4e80b2632f3a9df5d
+      internalID: 1552882725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_7
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1234
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ca4f65c191254444b365d50825e753d
+      internalID: -362705219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_8
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1174
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef1c656d0420c0040b50445d3861ccfd
+      internalID: -298971451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_9
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1174
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 274ea0fd6b352a64db27d6e60aa7a7c3
+      internalID: -1669251043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_10
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 1174
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d56e9888b39d6f419bd1bcdca470949
+      internalID: 1191064770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_11
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1174
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f373159762ea5c74ab79fade88ed4795
+      internalID: 1648196007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_12
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 1174
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 812d9f9b8dd45f94d9c85f197acc80d2
+      internalID: -1689394690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_13
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1174
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2efd028cdd5aa654cb622085ff611293
+      internalID: -781936412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_14
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1174
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec60eef6758ce02479981eaf333346f1
+      internalID: 446827073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_15
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 1174
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d817ce72a066d4841bfcec50265009e6
+      internalID: -1415237220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_16
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1111
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d8e64a60ca39040b6289439c590455
+      internalID: -1127136867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_17
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1111
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e506f246ea50ff84ea78856dd72898d3
+      internalID: 174521555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_18
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1111
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e80abe0a622bb845bb5ccc8e36ad7ae
+      internalID: 204989224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_19
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1111
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 369288a8218067b42a55bd1583fba058
+      internalID: -2100090193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_20
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 1111
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67d2f3de171423a47b992c9959705915
+      internalID: 61637233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_21
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1111
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd8fcfe6b00e9dc4e9080563905cb918
+      internalID: 380553563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_22
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1111
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d35cd1c1f67e68d4c9692b64ccc032bf
+      internalID: -1983985226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_23
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 1111
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdda2bf5a694b804cad4c1d52ff41ed8
+      internalID: 632375624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_24
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1046
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c094988d3b3f1744803602d70a236b2
+      internalID: 669728662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_25
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1046
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29d82dfbe64f49f4ea2a3bde2af2ea93
+      internalID: -1084874128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_26
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1046
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c48433b009015884586c96019d17705c
+      internalID: -1365019684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_27
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1046
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 614319eb90d7d1549a11643e17bb8b06
+      internalID: 933994859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_28
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1046
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c705838184531c4d954bf31b423d49b
+      internalID: -1971565733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_29
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1046
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c6475ef977cd39468070a83cedad381
+      internalID: -1577336891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_30
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1046
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f00671fbe664c43b51d7f21f55de72
+      internalID: -454808067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_31
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 1046
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ebae2b5efd4f6f4abc06374fbb3edce
+      internalID: 1399093610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_32
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 977
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 365d6184680823b4dafa6e2a4047d884
+      internalID: 1363278244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_33
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 977
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aff72dd1e4470ea4e84b8ba86148d4a2
+      internalID: -1437143476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_34
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 976
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e586417cda3833940a599a56a18804b3
+      internalID: -1771946855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_35
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 977
+        width: 21
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c3b035ac694e74ebf31a952b3d0a7a
+      internalID: -531308847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_36
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 975
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44fed9f852cbbe1498118b28eff69e7d
+      internalID: 1173161210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_37
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 976
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa51e69428ea6dd4e84e4a50cc67ff5f
+      internalID: -1445322598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_38
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 977
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab5d2be4626050488597d87e14412c4
+      internalID: 1857441234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_39
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 978
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e024e45c2826e4d428970474684110f7
+      internalID: -1398329752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_40
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 919
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd4fcdf5bdecfa47b361cdd133e5691
+      internalID: -198575926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_41
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 919
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79d84a9d9532f5d4f9c35f0b2505c3c7
+      internalID: -190169213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_42
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 919
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec6bcfa8ef8125b45b8f19b1543b8b43
+      internalID: 370388092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_43
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 919
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e1583b3a74f3e64da3721ab1e0cd6c9
+      internalID: -473979625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_44
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 919
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e282238571fcf52438d90085947f86f8
+      internalID: -535696705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_45
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 919
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c883d1d390c88c48a08b949734c08c8
+      internalID: -723958281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_46
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 919
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 965c87295fdb9ee4289a574b9651bb77
+      internalID: -955174957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_47
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 919
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40527c3f3cf61e34bb60efa405be0f82
+      internalID: 871175840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_48
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 856
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f7ee73f00aa5b4db39acae62520c3c
+      internalID: 1386021722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_49
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 855
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1f9e166ff0f34c4983afa1dd708f01a
+      internalID: -18114586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_50
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 854
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb9fa867f2eb2ff4db7dfb233db1678d
+      internalID: 423435745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_51
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 854
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3edd2f0e9241424f91046adb004fe73
+      internalID: 1727266901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_52
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 856
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f69deca6d6c6d6b4d89c6b2e7df3e870
+      internalID: 132180328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_53
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 855
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55423b0e899d75b4ea83b8957030705c
+      internalID: 1158512728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_54
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 854
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 114f4ebb8e7437e4d954b5ca893d3d2b
+      internalID: 2147471268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_55
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 854
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0263a5127df0a3f4db4806a7e9ec8887
+      internalID: -1610747616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_56
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 791
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb7968246b583b41ba0fc5783159bdc
+      internalID: 895234706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_57
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 791
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2aaf0f8f492904408935fec285032ca
+      internalID: 1113078659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_58
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 791
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce2f529d26e43c44c8524841431012fe
+      internalID: 652118070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_59
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 791
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae2c55773ce875145917a706ec175e4e
+      internalID: 1709383830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_60
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 791
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ac878a268383c04094376a21064f353
+      internalID: -538352718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_61
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 791
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef7b9e9841055bf4393ddc39480bf8f5
+      internalID: 139581441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_62
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 791
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cac95c8333110746be0548c387ddf37
+      internalID: -2137587185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_63
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 791
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0024963ddaf32d2429ac4eea399bc3dd
+      internalID: 948156172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_64
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 723
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a317cf4083a9cd41a2fba45f4a11bd6
+      internalID: 1526264521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_65
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 723
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 189d981640dd7a0418a76f6067cd350d
+      internalID: 1006432914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_66
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 721
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2da964723f4320148b2a2b9cf6bdbc78
+      internalID: 820553590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_67
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 719
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abf576f26c8638340aff29c7e565fd5d
+      internalID: 1254987754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_68
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 717
+        width: 21
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23e849a85305dba4ebd12a81415a8e2e
+      internalID: 499552701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_69
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 716
+        width: 20
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d30ac0555929b9e4f96502fad53c3707
+      internalID: 35045370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_70
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 718
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8acca0f628bc83540bb08524ef036b80
+      internalID: -806859148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_71
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 723
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 003943517fcbbb54aa1f1afade09411b
+      internalID: -1944699840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_72
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 664
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d021f437d0d69a643aaa331a95e81308
+      internalID: 1275650770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_73
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 664
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d67bb9c67c53df4c80953e401f3c9f5
+      internalID: -139612368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_74
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 663
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e25c46a9bde284d4290029703a9af69a
+      internalID: -498013476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_75
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 663
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 536b948448c7b1842a9156628c61f891
+      internalID: -1015197505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_76
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 664
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 215e60e58c5ccd646a6d20f00dd8b6ef
+      internalID: 238642108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_77
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 664
+        width: 40
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee1775ffa8d64a340bfc58ee17d5b0d5
+      internalID: -391191331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_78
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 663
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3800d10785240447800a3ef8766c41c
+      internalID: 224318470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_79
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 663
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c31d72cae9a540640b301db5e34b3ffd
+      internalID: -841290964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_80
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 595
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5be2c7d5a5e679947b4e53b013838ecb
+      internalID: -609939767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_81
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 598
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a1462c02a7c31549a46164332d16e73
+      internalID: 1549055391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_82
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 595
+        width: 23
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92c50b30328d7584f97494e983d96bf4
+      internalID: -2017105259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_83
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 595
+        width: 22
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aeb4add3b9f9434cb9be072e017a794
+      internalID: -1727243845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_84
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 595
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20acdef54764cdf41b89a16479e8b979
+      internalID: -376471572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_85
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 598
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91c6d860d60737d49afbe63274a7195b
+      internalID: 498133610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_86
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 595
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dda4871642030645af155e5b7160959
+      internalID: -1954941023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_87
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 595
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e2148af85f2ead40b0e5fb851dddb02
+      internalID: -1980137239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_88
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 536
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a067301bc37f01e4fb799f65bd5e46f6
+      internalID: 616909854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_89
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 536
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a72c9ca28d183474b90bae6bb007ac5b
+      internalID: 2072241070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_90
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 535
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 564b006cf6dc5104db250a548aedbe9b
+      internalID: -50990489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_91
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 535
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8265875ec8b5a7a4e889d465cbc4f603
+      internalID: 2051768398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_92
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 536
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5e8c54adf846b64f86631d39b7b3c13
+      internalID: -498114116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_93
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 536
+        width: 40
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55da1e1d5d68c7d408f75670ca4334e9
+      internalID: 1287247496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_94
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 535
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8580aa5ccaddf494a80e7c66eba1061b
+      internalID: 1731014472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_95
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 535
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48974e3b2de2ca24bb241412dcda756a
+      internalID: -1932799012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_96
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 471
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64980fd32e3baba44a342ca1e3264739
+      internalID: -412427578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_97
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 457
+        width: 21
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72705b7904e2f5f4b8a93d763e10c860
+      internalID: 1042615687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_98
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 469
+        width: 44
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe2cc2137096f640a6f45e4e6b29a2e
+      internalID: 1402802844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_99
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 469
+        width: 44
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72fc4adf7e8ccb14bbf4a23e40229cdc
+      internalID: 1341472751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_100
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 469
+        width: 44
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 498edf306e44b714f89684d1cc17b658
+      internalID: 1320060861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_101
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 407
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf592cc10038fce419d5536787e1c053
+      internalID: -2091415102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_102
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 407
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 607a0f7e290f9aa499916b77758d5d81
+      internalID: -806493978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_103
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 399
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bf411ad0292d6744a8cc5e7dc637920
+      internalID: -682654717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_104
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 400
+        width: 19
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67064305b722d8c4796021e18b92f82c
+      internalID: 1990166118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_105
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 400
+        width: 18
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20aa60caf2a0dec4c87cf88c6eacf5e5
+      internalID: 1847993855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_106
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 340
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 982a8f740de1cbb47b4dbda0a8f484a4
+      internalID: 9710548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_107
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 342
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d94b9e532ef1bb04f8be4b83f7a7a6cc
+      internalID: -234642449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_108
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 342
+        width: 42
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86d7b3d6eaf80a749b69ed8a9aed6d4c
+      internalID: -863742974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_109
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 342
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9700170e7edbd9048a696d2dae2785a5
+      internalID: -84851808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_110
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 342
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8545786417cfa848b6f27c092dcd8a1
+      internalID: 570824222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_111
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 279
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1476b59879c7e3f41be3b6123e4c996b
+      internalID: -1170622812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_112
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 279
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba38837a695a20b46878d31f8baa7bf7
+      internalID: 457411391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_113
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 271
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e438ceb5b207db4ab5e4cfb773030e9
+      internalID: 626279597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_114
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 272
+        width: 19
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a225c17c0a8e2c429445a672bf70083
+      internalID: -1518961555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_115
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 272
+        width: 18
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f139c61daa528408900ec5d9d30076
+      internalID: 1855014652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_116
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 207
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ef14240fec3c524992f61fd7f7521b0
+      internalID: -1865293206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_117
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 209
+        width: 18
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 621a8d8e29128004bba4f8107605cb54
+      internalID: 881156972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_118
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 212
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a63d81ae48b3d54a8e0900c899e0186
+      internalID: 50743566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_119
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 143
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4a43f8b9f7f40b42baa4b0cbc5bdcbf
+      internalID: 4141090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_120
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 144
+        width: 18
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 368c7c0404ff3bd40aac416ecf385a45
+      internalID: 1304897667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_121
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 151
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a76009c7644e63145bceb34fdf149608
+      internalID: -1349669280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_122
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 87
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84619e177d8124f4d940329f46686f0a
+      internalID: 1496662514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_123
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 84
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f53509e78a318444ba8f682b197543b6
+      internalID: -985925611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_124
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 85
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 800729eed2c54ad438646403350155b3
+      internalID: -1565891895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_125
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 15
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4841b1fddd283f48bb9288d39626a11
+      internalID: 60166818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_126
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 16
+        width: 18
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8449429d5ead7144295fcfda2fb32e45
+      internalID: 646418893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Utkan_127
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 23
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cf190c2a0852f14e91fe4cbc558a49a
+      internalID: 641664187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Utkan_11: 1648196007
+      Utkan_62: -2137587185
+      Utkan_57: 1113078659
+      Utkan_15: -1415237220
+      Utkan_106: 9710548
+      Utkan_51: 1727266901
+      Utkan_50: 423435745
+      Utkan_36: 1173161210
+      Utkan_59: 1709383830
+      Utkan_78: 224318470
+      Utkan_71: -1944699840
+      Utkan_45: -723958281
+      Utkan_112: 457411391
+      Utkan_95: -1932799012
+      Utkan_118: 50743566
+      Utkan_1: -195088643
+      Utkan_3: -1304741814
+      Utkan_31: 1399093610
+      Utkan_68: 499552701
+      Utkan_30: -454808067
+      Utkan_69: 35045370
+      Utkan_38: 1857441234
+      Utkan_34: -1771946855
+      Utkan_29: -1577336891
+      Utkan_123: -985925611
+      Utkan_48: 1386021722
+      Utkan_73: -139612368
+      Utkan_52: 132180328
+      Utkan_35: -531308847
+      Utkan_77: -391191331
+      Utkan_117: 881156972
+      Utkan_23: 632375624
+      Utkan_53: 1158512728
+      Utkan_10: 1191064770
+      Utkan_72: 1275650770
+      Utkan_113: 626279597
+      Utkan_90: -50990489
+      Utkan_67: 1254987754
+      Utkan_4: 1670521525
+      Utkan_125: 60166818
+      Utkan_115: 1855014652
+      Utkan_18: 204989224
+      Utkan_22: -1983985226
+      Utkan_46: -955174957
+      Utkan_109: -84851808
+      Utkan_121: -1349669280
+      Utkan_103: -682654717
+      Utkan_60: -538352718
+      Utkan_64: 1526264521
+      Utkan_66: 820553590
+      Utkan_27: 933994859
+      Utkan_25: -1084874128
+      Utkan_124: -1565891895
+      Utkan_32: 1363278244
+      Utkan_16: -1127136867
+      Utkan_126: 646418893
+      Utkan_76: 238642108
+      Utkan_0: -952258192
+      Utkan_55: -1610747616
+      Utkan_122: 1496662514
+      Utkan_56: 895234706
+      Utkan_61: 139581441
+      Utkan_110: 570824222
+      Utkan_96: -412427578
+      Utkan_5: -760758517
+      Utkan_42: 370388092
+      Utkan_58: 652118070
+      Utkan_21: 380553563
+      Utkan_111: -1170622812
+      Utkan_104: 1990166118
+      Utkan_40: -198575926
+      Utkan_43: -473979625
+      Utkan_19: -2100090193
+      Utkan_20: 61637233
+      Utkan_80: -609939767
+      Utkan_127: 641664187
+      Utkan_65: 1006432914
+      Utkan_82: -2017105259
+      Utkan_93: 1287247496
+      Utkan_87: -1980137239
+      Utkan_74: -498013476
+      Utkan_81: 1549055391
+      Utkan_7: -362705219
+      Utkan_84: -376471572
+      Utkan_100: 1320060861
+      Utkan_99: 1341472751
+      Utkan_94: 1731014472
+      Utkan_107: -234642449
+      Utkan_2: 797482176
+      Utkan_14: 446827073
+      Utkan_79: -841290964
+      Utkan_75: -1015197505
+      Utkan_105: 1847993855
+      Utkan_101: -2091415102
+      Utkan_41: -190169213
+      Utkan_9: -1669251043
+      Utkan_44: -535696705
+      Utkan_119: 4141090
+      Utkan_98: 1402802844
+      Utkan_120: 1304897667
+      Utkan_33: -1437143476
+      Utkan_39: -1398329752
+      Utkan_114: -1518961555
+      Utkan_83: -1727243845
+      Utkan_24: 669728662
+      Utkan_89: 2072241070
+      Utkan_85: 498133610
+      Utkan_91: 2051768398
+      Utkan_26: -1365019684
+      Utkan_70: -806859148
+      Utkan_28: -1971565733
+      Utkan_37: -1445322598
+      Utkan_17: 174521555
+      Utkan_63: 948156172
+      Utkan_97: 1042615687
+      Utkan_92: -498114116
+      Utkan_86: -1954941023
+      Utkan_47: 871175840
+      Utkan_8: -298971451
+      Utkan_13: -781936412
+      Utkan_6: 1552882725
+      Utkan_12: -1689394690
+      Utkan_108: -863742974
+      Utkan_116: -1865293206
+      Utkan_54: 2147471268
+      Utkan_49: -18114586
+      Utkan_88: 616909854
+      Utkan_102: -806493978
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

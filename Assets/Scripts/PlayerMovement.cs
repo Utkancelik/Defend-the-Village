@@ -33,4 +33,21 @@ public class PlayerMovement : MonoBehaviour
 
 
     }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("SpeedBoost"))
+        {
+            speed = 1.4f;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("SpeedBoost"))
+        {
+            speed = 1f;
+        }
+    }
+
+
 }

@@ -1,0 +1,2939 @@
+fileFormatVersion: 2
+guid: 63b764d7a6fdd664c8b7edc04eb218a3
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 150
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1232
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1b52f724dc1ee442993d5e0e2854886
+      internalID: -1607163518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_1
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1232
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 186aae62bcb756446887313885dc0ac5
+      internalID: 413182896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_2
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1233
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83a1750c4d0e75549a268cf818ed49e8
+      internalID: 1365939376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_3
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1235
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c0e1edbcfe84d4087cc659dcdf14a1
+      internalID: -24771697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_4
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1237
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b91c89d2fb65ea6459d6b73b3601482f
+      internalID: -1281104238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_5
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1237
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2481569af97b044478cf2dd4b0607be3
+      internalID: 1328741701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_6
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1235
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed87c6d25c593a4497bbc62bc402856
+      internalID: -47682593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_7
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1234
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e94658eb2b77f742a44e23f4a48c19c
+      internalID: -789157353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_8
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1174
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b292cee66e621742acfc05ef172669f
+      internalID: -659799098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_9
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 1174
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64b869c9359f79946829c672adc85dfb
+      internalID: -1717741719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_10
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 1174
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6330b72a99082844a1ed528d004604e
+      internalID: 316257749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_11
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 1174
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36365837679092441bb1d190882f0a55
+      internalID: 605592852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_12
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 1174
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a899ab94c80a05468cb99cce9d69bd2
+      internalID: 188840897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_13
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 1174
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 591893633333fa5468a8a2cd413b750d
+      internalID: -1180111592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_14
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 1174
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f603bd81be0509640b8ea1161aec8b82
+      internalID: -1700572391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_15
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 1174
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e44e9d97701b9f349b2db577e00d2ec9
+      internalID: 914055738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_16
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1111
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a36795f355e89df41867fbc3ea63879b
+      internalID: 782716060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_17
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1111
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b4c36d398fb2114fa9818f69c0fd687
+      internalID: 529055288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_18
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1111
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11e4ea3afa6d86d4882706aebb9be0b2
+      internalID: 2123206241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_19
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1111
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ba8001c2eb337741b0927814c15f1ca
+      internalID: 1675630758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_20
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 1111
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff4e7a350e7c7324792100e8ba8c90f7
+      internalID: 721781067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_21
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1111
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d0bce6a9f6eae4a80016b042e3ab16
+      internalID: 435073998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_22
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1111
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 713a54989bd739040a516eda076ddaf9
+      internalID: 1392705458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_23
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 1111
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6118aae06d7b2147aafc04f5501f318
+      internalID: 1884472908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_24
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1046
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 915467a199edc674daaf05dbc7f62de6
+      internalID: 423254513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_25
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1046
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a507636c1096b424e8f904d666491e3c
+      internalID: 1543745987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_26
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1046
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53f47add7ac96424590421dd24885b5e
+      internalID: 1566229069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_27
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1046
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b5cd25ab612c9a4391ca3813b296a13
+      internalID: -37325742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_28
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1046
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eda8086ce37ed940a7fed0ee9bbfb78
+      internalID: -294308998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_29
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1046
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fe7e49c528d3f044aa973ab6d062fa8
+      internalID: -1225560061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_30
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1046
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d3aee31c775ccf48846f44d0581f628
+      internalID: -2028697932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_31
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 1046
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e9c32b9571c7734983ae8a59a976500
+      internalID: -1168557484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_32
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 977
+        width: 22
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f4c8fd7bf32b2145a2a3a72382ea243
+      internalID: -451981763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_33
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 977
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 789c9fb8279708144a8328b47d85efc3
+      internalID: -1692789462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_34
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 976
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cb4814e8bf35fc48b620357a00181a0
+      internalID: 93497061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_35
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 977
+        width: 21
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd2a93e61bcbc1e4e9cc243765ef1b33
+      internalID: 843786050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_36
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 975
+        width: 20
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efddc2f4aaead5d4cb534d64f934344f
+      internalID: 2134264703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_37
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 976
+        width: 23
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd30584cca353274993ddc47c7ed3853
+      internalID: 1447823033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_38
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 977
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed4e773c6c85fa0429df44bd3c7baae2
+      internalID: 285110569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_39
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 978
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe45b2403ed326a479ffbe951f37d138
+      internalID: 1839990170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_40
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 919
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7dbf19a25ba9224e8ee48dd3ed168e6
+      internalID: 670099108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_41
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 919
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c22607b2382555a459ec1a609a486b9f
+      internalID: -1089214521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_42
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 919
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f99241a50ec147c408ddd04c899443b6
+      internalID: 232260851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_43
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 919
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae4de050d3efc6e4681fb8658b2b4a70
+      internalID: 661457257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_44
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 919
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 610ac3962eff76540ac4b62f9289ebc7
+      internalID: -353679787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_45
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 919
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d773210e08a28d4a947ba13a0aed161
+      internalID: -1888763517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_46
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 919
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a348bdeaccf6984b8af6d2aeb09ad45
+      internalID: -1133829213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_47
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 919
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59779c9715bdb3a439b5b08cf8115542
+      internalID: 875995064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_48
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 856
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 013a33a5911041346b7d6385f6196246
+      internalID: -1794689080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_49
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 855
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a87df964c59dd94b9f81598eefdf777
+      internalID: -800146206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_50
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 854
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 522f2c3a04c99c74ab8498daf591f2e7
+      internalID: 1890367860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_51
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 854
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37bd09e41241869458d705b83221c998
+      internalID: -688319844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_52
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 856
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d645ab9bc00324e488b95c170ba4739c
+      internalID: -1809982843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_53
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 855
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e41d0f9a327aa8f4f99c0dd4c6cd673b
+      internalID: 1555358746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_54
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 854
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72583e6096614104e9af8d82d0d44e7f
+      internalID: -288903447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_55
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 854
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bb8f6dfe1a98514191c8face54f75cb
+      internalID: -377677351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_56
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 791
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e4c191ed411d704abb643b2b9bfa0f4
+      internalID: 130076673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_57
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 791
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebfc084b2192f4f4c9ab0fdf32de6a19
+      internalID: 1379502971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_58
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 791
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3370bbaca239d346a673c12e79e7729
+      internalID: 259809365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_59
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 791
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5270acdc1852f3b419813af8dc24bb3d
+      internalID: -550242448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_60
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 791
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f5aa249f35430479e576b776e5ca67
+      internalID: 866381313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_61
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 791
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f387926d353a92c479017598c58a39a6
+      internalID: -432869289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_62
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 791
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2bc91a9746b9884eb5c5d6104eee5e1
+      internalID: -1275757107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_63
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 791
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 785604bcac0a7b64ea605f9e5dd57b9f
+      internalID: -2002414718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_64
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 723
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7c09027706b43b47b8ad57fefd5c7bc
+      internalID: -1174551229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_65
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 723
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c028a1bc39e47394884ec98b90a30ccc
+      internalID: -255553082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_66
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 721
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d42c222381dee46a92f4c840e04f6a
+      internalID: -1022032584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_67
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 719
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7d586357ab69444e9ab2a9073184b64
+      internalID: 1629318900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_68
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 717
+        width: 21
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56173b0d278161840ae2116bd7bd9481
+      internalID: -1079802026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_69
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 716
+        width: 20
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09a088055ed129f41bc50a6a790727ea
+      internalID: -586176361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_70
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 718
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac8af00fd9a13ba4890920277fc85dd7
+      internalID: -156553032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_71
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 723
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0faa001eca6c9c4ca13515cdcaa2981
+      internalID: 295859744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_72
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 664
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebe2632b3bc1c6a4dbdf117a536e638b
+      internalID: 285244169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_73
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 664
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1538cbf38058094983f8708c00673d7
+      internalID: 1942092334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_74
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 663
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e06414fac3acd3044a41b3b88a07392a
+      internalID: -1296677690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_75
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 663
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f271825acc9574fa080aace319ef8e
+      internalID: 339946497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_76
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 664
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb474f84552c8214386b08dfabbab19d
+      internalID: 1597152407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_77
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 664
+        width: 40
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 944ac4a3b5dade2408d183d9f0b359c4
+      internalID: 1621360145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_78
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 663
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07142cc93f6b4204aa7cc0d0bbe0beb7
+      internalID: -950360622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_79
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 663
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1c3ca28ea328304695edb0464c8829f
+      internalID: -1669981563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_80
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 595
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b1560ee678158498bc972696c0d31a
+      internalID: -132164760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_81
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 598
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57bc029647407ac42b4dc2984b67d89d
+      internalID: 2083135459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_82
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 595
+        width: 23
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd5eb0cd5a75c584da50124657527c6a
+      internalID: -220031038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_83
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 595
+        width: 22
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 607fcc7be244bb6439b74de5770aa4f8
+      internalID: -1442306784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_84
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 595
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc707df81c3cf94383f1d8fc87f4304
+      internalID: 1524619863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_85
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 598
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35091974185bbec4a9ada4e5f97a38ab
+      internalID: 1773349451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_86
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 595
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f2cc5581dec3b341bdecc116e691f70
+      internalID: 212671818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_87
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 595
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c47cecd044e669e48b432b401b058ebb
+      internalID: 47706545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_88
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 536
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a68c85964a579db4bb94d16184cdc4f1
+      internalID: -638555655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_89
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 536
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 826b24c4c7066ee4a8ec054ebd26ebb8
+      internalID: 1559012685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_90
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 535
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f811145c1264204d89ad0026464d10a
+      internalID: -1402953267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_91
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 535
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be177b57206ff664bae350bc255bc638
+      internalID: -939827096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_92
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 536
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a33572121de2624ba480bd86106c13c
+      internalID: -1432297744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_93
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 536
+        width: 40
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab65129fc75ee364d82a6197af98ed77
+      internalID: 1624354949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_94
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 535
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 957f8986871135b4f918356ff6795b59
+      internalID: -1255061535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_95
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 535
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfc0a19f840fba141b90b0a38add71ee
+      internalID: -879810711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_96
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 471
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 135b0a5198438914cbe3c5ad9ef939d2
+      internalID: -680118639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_97
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 457
+        width: 21
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ee64a9a388cc1c4d89aa0734b6a86c9
+      internalID: -1561649537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_98
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 469
+        width: 44
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49445e1e65b6adb458416ce62f69d964
+      internalID: -1753124591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_99
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 469
+        width: 44
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd1424d4644d52d42ad91ed1c923755c
+      internalID: 125100811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_100
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 469
+        width: 44
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80ed3ec551886ca4892f6c769f969cd5
+      internalID: 1310324788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_101
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 407
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb1393463554d4e40bcc946a8da78ad3
+      internalID: -129847608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_102
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 407
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06ca44d1f69d5064fb1bf78b5138f53a
+      internalID: 354894937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_103
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 399
+        width: 18
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b0343e319155943987b554f569e387
+      internalID: 1662947303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_104
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 400
+        width: 16
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0636d318e02618a479596dcb06672f63
+      internalID: -136668819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_105
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 400
+        width: 14
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d8f9ca746e64e4eada9b8c53022354
+      internalID: 967502929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_106
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 340
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca5f3fe76f7b6e849a62f92b46d1e6ca
+      internalID: 949481611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_107
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 342
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59000343cb4ab5f4c9a1f3505c5da6b4
+      internalID: 2065189524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_108
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 342
+        width: 42
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c6593d9e96bc6b4b987d090a363cbaa
+      internalID: 27015171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_109
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 342
+        width: 46
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37a3203dd60ba6048b966572944a051f
+      internalID: 1702408843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_110
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 342
+        width: 46
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 835706a9aadfd6842823685ebd33f9de
+      internalID: 1868336243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_111
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 279
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2814a525612146b4daebe14a534602bb
+      internalID: 1396854088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_112
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 279
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22cc2e77ff3236848926e84f97b226e2
+      internalID: -2004294084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_113
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 271
+        width: 18
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8cefb0617230734a8ca9bda1c498c1b
+      internalID: 1582053404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_114
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 272
+        width: 16
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a31e2d75c37527b4d9b3a87440eb7ef5
+      internalID: 1555421547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_115
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 272
+        width: 14
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae5298964d6cf584c9a01fb28258be74
+      internalID: -1669089390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_116
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 207
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ec9f15d87d5474fbfbab2b9f53581e
+      internalID: -361597439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_117
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 209
+        width: 18
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94db36dd30ca5024eaa66c5f5023e51d
+      internalID: 1472132565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_118
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 212
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7457bb10ce7dc9a48a61d1a3fd2f88cc
+      internalID: 1649822488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_119
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 143
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 008400ee3bb00ed4dafa43435a7b3d3f
+      internalID: -1010497705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_120
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 144
+        width: 15
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b9e470cd2377544ab2d107e75086a47
+      internalID: 1397230232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_121
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 151
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a63c4c15e68edb44aa1ea8232cf346c
+      internalID: -563690430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_122
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 87
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea54121182f1b0546a8aed57e2f566bb
+      internalID: -1593964946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_123
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 84
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a1299e7ef0f7204a9ad08139d4b2d27
+      internalID: 283397392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_124
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 85
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34bcd24899ddcb34db860e7c6d0acf4a
+      internalID: 303121737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_125
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 15
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24cd33be63ebb854ebfd6df98c2a4eed
+      internalID: -1080583662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_126
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 16
+        width: 15
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07be0605294e5bb4ebb5d355278865bf
+      internalID: -81938106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cathy.aseprite_palette_2_127
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 23
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ede49debe484d924b839bd9b01139f5a
+      internalID: -1261951977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      cathy.aseprite_palette_2_103: 1662947303
+      cathy.aseprite_palette_2_61: -432869289
+      cathy.aseprite_palette_2_98: -1753124591
+      cathy.aseprite_palette_2_121: -563690430
+      cathy.aseprite_palette_2_57: 1379502971
+      cathy.aseprite_palette_2_115: -1669089390
+      cathy.aseprite_palette_2_0: -1607163518
+      cathy.aseprite_palette_2_42: 232260851
+      cathy.aseprite_palette_2_77: 1621360145
+      cathy.aseprite_palette_2_112: -2004294084
+      cathy.aseprite_palette_2_16: 782716060
+      cathy.aseprite_palette_2_44: -353679787
+      cathy.aseprite_palette_2_51: -688319844
+      cathy.aseprite_palette_2_124: 303121737
+      cathy.aseprite_palette_2_71: 295859744
+      cathy.aseprite_palette_2_80: -132164760
+      cathy.aseprite_palette_2_89: 1559012685
+      cathy.aseprite_palette_2_76: 1597152407
+      cathy.aseprite_palette_2_37: 1447823033
+      cathy.aseprite_palette_2_97: -1561649537
+      cathy.aseprite_palette_2_3: -24771697
+      cathy.aseprite_palette_2_85: 1773349451
+      cathy.aseprite_palette_2_88: -638555655
+      cathy.aseprite_palette_2_14: -1700572391
+      cathy.aseprite_palette_2_94: -1255061535
+      cathy.aseprite_palette_2_127: -1261951977
+      cathy.aseprite_palette_2_32: -451981763
+      cathy.aseprite_palette_2_38: 285110569
+      cathy.aseprite_palette_2_33: -1692789462
+      cathy.aseprite_palette_2_60: 866381313
+      cathy.aseprite_palette_2_100: 1310324788
+      cathy.aseprite_palette_2_105: 967502929
+      cathy.aseprite_palette_2_122: -1593964946
+      cathy.aseprite_palette_2_10: 316257749
+      cathy.aseprite_palette_2_34: 93497061
+      cathy.aseprite_palette_2_58: 259809365
+      cathy.aseprite_palette_2_106: 949481611
+      cathy.aseprite_palette_2_75: 339946497
+      cathy.aseprite_palette_2_118: 1649822488
+      cathy.aseprite_palette_2_107: 2065189524
+      cathy.aseprite_palette_2_101: -129847608
+      cathy.aseprite_palette_2_113: 1582053404
+      cathy.aseprite_palette_2_26: 1566229069
+      cathy.aseprite_palette_2_29: -1225560061
+      cathy.aseprite_palette_2_87: 47706545
+      cathy.aseprite_palette_2_116: -361597439
+      cathy.aseprite_palette_2_12: 188840897
+      cathy.aseprite_palette_2_123: 283397392
+      cathy.aseprite_palette_2_126: -81938106
+      cathy.aseprite_palette_2_114: 1555421547
+      cathy.aseprite_palette_2_25: 1543745987
+      cathy.aseprite_palette_2_67: 1629318900
+      cathy.aseprite_palette_2_86: 212671818
+      cathy.aseprite_palette_2_110: 1868336243
+      cathy.aseprite_palette_2_65: -255553082
+      cathy.aseprite_palette_2_108: 27015171
+      cathy.aseprite_palette_2_50: 1890367860
+      cathy.aseprite_palette_2_4: -1281104238
+      cathy.aseprite_palette_2_78: -950360622
+      cathy.aseprite_palette_2_23: 1884472908
+      cathy.aseprite_palette_2_31: -1168557484
+      cathy.aseprite_palette_2_49: -800146206
+      cathy.aseprite_palette_2_9: -1717741719
+      cathy.aseprite_palette_2_119: -1010497705
+      cathy.aseprite_palette_2_96: -680118639
+      cathy.aseprite_palette_2_41: -1089214521
+      cathy.aseprite_palette_2_5: 1328741701
+      cathy.aseprite_palette_2_93: 1624354949
+      cathy.aseprite_palette_2_17: 529055288
+      cathy.aseprite_palette_2_20: 721781067
+      cathy.aseprite_palette_2_102: 354894937
+      cathy.aseprite_palette_2_63: -2002414718
+      cathy.aseprite_palette_2_7: -789157353
+      cathy.aseprite_palette_2_13: -1180111592
+      cathy.aseprite_palette_2_95: -879810711
+      cathy.aseprite_palette_2_54: -288903447
+      cathy.aseprite_palette_2_35: 843786050
+      cathy.aseprite_palette_2_6: -47682593
+      cathy.aseprite_palette_2_24: 423254513
+      cathy.aseprite_palette_2_8: -659799098
+      cathy.aseprite_palette_2_48: -1794689080
+      cathy.aseprite_palette_2_91: -939827096
+      cathy.aseprite_palette_2_125: -1080583662
+      cathy.aseprite_palette_2_40: 670099108
+      cathy.aseprite_palette_2_84: 1524619863
+      cathy.aseprite_palette_2_1: 413182896
+      cathy.aseprite_palette_2_45: -1888763517
+      cathy.aseprite_palette_2_59: -550242448
+      cathy.aseprite_palette_2_62: -1275757107
+      cathy.aseprite_palette_2_104: -136668819
+      cathy.aseprite_palette_2_22: 1392705458
+      cathy.aseprite_palette_2_11: 605592852
+      cathy.aseprite_palette_2_18: 2123206241
+      cathy.aseprite_palette_2_64: -1174551229
+      cathy.aseprite_palette_2_81: 2083135459
+      cathy.aseprite_palette_2_21: 435073998
+      cathy.aseprite_palette_2_27: -37325742
+      cathy.aseprite_palette_2_47: 875995064
+      cathy.aseprite_palette_2_83: -1442306784
+      cathy.aseprite_palette_2_69: -586176361
+      cathy.aseprite_palette_2_2: 1365939376
+      cathy.aseprite_palette_2_68: -1079802026
+      cathy.aseprite_palette_2_19: 1675630758
+      cathy.aseprite_palette_2_117: 1472132565
+      cathy.aseprite_palette_2_55: -377677351
+      cathy.aseprite_palette_2_39: 1839990170
+      cathy.aseprite_palette_2_28: -294308998
+      cathy.aseprite_palette_2_70: -156553032
+      cathy.aseprite_palette_2_43: 661457257
+      cathy.aseprite_palette_2_15: 914055738
+      cathy.aseprite_palette_2_92: -1432297744
+      cathy.aseprite_palette_2_66: -1022032584
+      cathy.aseprite_palette_2_79: -1669981563
+      cathy.aseprite_palette_2_52: -1809982843
+      cathy.aseprite_palette_2_111: 1396854088
+      cathy.aseprite_palette_2_120: 1397230232
+      cathy.aseprite_palette_2_36: 2134264703
+      cathy.aseprite_palette_2_90: -1402953267
+      cathy.aseprite_palette_2_99: 125100811
+      cathy.aseprite_palette_2_56: 130076673
+      cathy.aseprite_palette_2_30: -2028697932
+      cathy.aseprite_palette_2_72: 285244169
+      cathy.aseprite_palette_2_73: 1942092334
+      cathy.aseprite_palette_2_82: -220031038
+      cathy.aseprite_palette_2_46: -1133829213
+      cathy.aseprite_palette_2_53: 1555358746
+      cathy.aseprite_palette_2_74: -1296677690
+      cathy.aseprite_palette_2_109: 1702408843
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
